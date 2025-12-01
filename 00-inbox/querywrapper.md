@@ -47,7 +47,8 @@ return userMapper.selectOne(wrapper);
     return userMapper.selectOne(wrapper);
 ```
 
->wrapper.eq(User::getUsername, inputName);  
+>wrapper.eq(User::getUsername, inputName);
+  
 详细解释一下这一句,有点绕  
 左边告诉mybatisplus,让它查一下User类里的username属性对应数据库的哪一列  
 之前我在User类里加了@TableName的注解,所以它能找到映射关系  
