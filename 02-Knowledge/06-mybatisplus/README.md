@@ -1,5 +1,5 @@
 # mybatisplus
 
-第一步 entity类打上@TableName注解,@TableId说明哪个是主键
-第二步 mapper类继承baseMapper,基本sql语句可以清空
-第三步 service类直接调用mapper的父类方法,如果不常见则用querymapper
+第一步 entity类打上@TableName注解,@TableId说明哪个是主键  
+第二步 mapper类继承baseMapper,基本sql语句可以清空  
+第三步 service类直接调用mapper的父类方法,如果不常见则用querymapper  
